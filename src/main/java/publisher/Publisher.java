@@ -5,6 +5,7 @@ import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
 
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.concurrent.TimeoutException;
 
 public class Publisher {
@@ -19,8 +20,15 @@ public class Publisher {
 
         String exchange = "";
         String queueName = "Queue-1";
-        String message = "First Message from RabbitMQ";
-        channel.basicPublish(exchange, queueName, null, message.getBytes());
+        String[] messages = {"First", "Second", "Third", "Fourth"};
+
+        Arrays.stream(messages).forEach(msg -> {
+            try {
+                channel.basicPublish(exchange, queueName, null, msg.getBytes());
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        });
 
         channel.close();
         connection.close();
