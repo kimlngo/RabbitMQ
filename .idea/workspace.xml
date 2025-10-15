@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="RabbitMQ:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="227cda8b-6a7c-4875-bc35-86934440fc6c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/RabbitMQ_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic/Consumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic/Publisher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/direct/exchange/DirectConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/direct/exchange/DirectPublisher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fanout/FanoutPublisher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/header/exchange/HeaderPublisher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/json/JsonConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/json/JsonPublisher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/topic/TopicPublisher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.26.0/amqp-client-5.26.0.jar!/com/rabbitmq/client/Connection.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/json/json/20250517/json-20250517.jar!/org/json/JSONObject.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="343yELNhnzHzUQNAlSoGgy6ECfR" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Consumer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DirectConsumer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DirectPublisher.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FanoutPublisher.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JsonConsumer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JsonPublisher.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Publisher.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TopicPublisher.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.HeaderPublisher">
+    <configuration name="DirectConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="direct.exchange.DirectConsumer" />
+      <module name="RabbitMQ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="direct.exchange.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DirectPublisher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="direct.exchange.DirectPublisher" />
+      <module name="RabbitMQ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="direct.exchange.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FanoutPublisher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fanout.FanoutPublisher" />
+      <module name="RabbitMQ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fanout.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeaderPublisher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="header.exchange.HeaderPublisher" />
+      <module name="RabbitMQ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="header.exchange.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopicPublisher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="topic.TopicPublisher" />
+      <module name="RabbitMQ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="topic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HeaderPublisher" />
+        <item itemvalue="Application.TopicPublisher" />
+        <item itemvalue="Application.FanoutPublisher" />
+        <item itemvalue="Application.DirectConsumer" />
+        <item itemvalue="Application.DirectPublisher" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="227cda8b-6a7c-4875-bc35-86934440fc6c" name="Changes" comment="" />
+      <created>1760456436955</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1760456436955</updated>
+    </task>
+    <servers />
+  </component>
+</project>
