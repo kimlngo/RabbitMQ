@@ -1,4 +1,4 @@
-package header.exchange;
+package exchange.header;
 
 import com.rabbitmq.client.AMQP;
 import com.rabbitmq.client.Channel;

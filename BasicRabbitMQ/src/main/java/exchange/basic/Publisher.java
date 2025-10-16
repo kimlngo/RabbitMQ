@@ -1,4 +1,4 @@
-package basic;
+package exchange.basic;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;

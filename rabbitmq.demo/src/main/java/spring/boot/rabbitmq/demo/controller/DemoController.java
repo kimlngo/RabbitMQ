@@ -53,4 +53,11 @@ public class DemoController {
 
         return "success";
     }
+
+    @GetMapping("/defaultexchange/{name}")
+    public String publishDefaultExchange(@PathVariable("name") String name) {
+        Person person = new Person(1L, name);
+        rabbitTemplate.convertAndSend("Mobile", person);
+        return "success";
+    }
 }
